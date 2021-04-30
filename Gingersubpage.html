@@ -1,0 +1,125 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #3f93a6
+}
+H1{
+  text-align: center;
+  font-family: chalkboard;
+  color: #060766;
+  font-size: 65px;
+}
+H2{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 30px;
+    color: #060766;
+  margin-bottom: 10px;
+}
+.mydisk{
+}
+P1{
+  text-align: left;
+  font-size: 20px;
+    color: #060766;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+    color: #060766;
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+    color: #060766;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+    color: #060766;
+  margin-top: 0px;
+}
+.Home{
+  text-align: center;
+  color: #060766;
+  margin-bottom: 20px;
+}
+.text{
+  font-size: 15px;
+  font-family: times new roman;
+  color: #060766;
+  font-weight: bolder;
+}
+</style>
+</head>
+<body>
+  <div class="mydisk">
+  <H1>ALPERT FAMILY'S DOGS</H1>
+  <div class="Home">
+  <a href="/Users/marshaalpert/Documents/Dogs/Familydogs.html">Click Home</a>
+</div>
+  <Center>
+     <div class="myDiv">
+
+         <div class="slideshow-container">
+
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/IMG_3180.MOV" Width="315px" Height="350px">
+               <div class="text">Ginger Roaming the Hallway</div>
+             </div>
+
+             </div>
+
+
+             <div style="text-align:center">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+             </div>
+
+             <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+               }
+               slideIndex++;
+               if (slideIndex > slides.length) {slideIndex = 1}
+               for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 14000);
+             }
+
+             </script>
+ </div>
+ </center>
+
+
+<h2>GINGER</H2>
+  <h3>Born: 04/2014</h3>
+  <h4>Adopted: 01/08/2017</h4>
+  <h5></h5>
+
+
+  <p1>We brought Ginger home because her companion, a large dog named Jamison, had been adopted but she had been left behind. We thought it was cruel to have separated the dogs so we adopted Ginger. She is the only dog we have adopted that possibly was a mistake. Ginger was 3 1/2 years old when we brought her home. She was afraid of everything. She was afraid to step on our Saltillo-tile floors and was terrified of walking up or down the four steps to our bedroom. She froze whenever confronted by anything new to her and became hysterical whenever she encountered another dog on her walks. She became increasingly aggressive with Zack as he got more frail. She enjoys affection from people but does not like to be picked-up. Now that Pete and Zack are gone and Ginger is an only dog, she seems to have become more confidant. She is reliably housebroken and is almost as good a timekeeper as Pete was.  She most likely will be our last dog.
+</p1>
+
+
+</div>
+</body>
+</html>
