@@ -1,0 +1,133 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #f07a24
+}
+H1{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 65px;
+  color: #060766;
+}
+H2{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 35px;
+  color: #060766;
+  margin-bottom: 1px;
+}
+.mydisk{
+}
+P1{
+  text-align: left;
+  font-size: 20px;
+  color: #060766;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+}
+.Home{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #060766;
+}
+.text{
+  font-size: 16px;
+  font-family: times new roman;
+  font-weight: bolder;
+  color: #060766;
+}
+</style>
+</head>
+<body>
+  <div class="mydisk">
+  <H1>ALPERT FAMILY'S DOGS</H1>
+  <div class="Home">
+  <a href="/Users/marshaalpert/Documents/Dogs/Familydogs.html">Click Home</a>
+</div>
+  <Center>
+     <div class="myDiv">
+
+         <div class="slideshow-container">
+
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/MaxD8532.JPG" Width="260px" Height="350px">
+               <div class="text">Max Pre-Adoption</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Max3D8532.JPG" Width="210px" Height="350px">
+               <div class="text">Max at Woods</div>
+             </div>
+
+
+             </div>
+
+
+             <div style="text-align:center">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+             </div>
+
+             <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+               }
+               slideIndex++;
+               if (slideIndex > slides.length) {slideIndex = 1}
+               for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 2500);
+             }
+
+             </script>
+ </div>
+ </center>
+
+
+<h2>MAX</H2>
+  <h3>Born: unknown (senior)</h3>
+  <h4>Adopted: 03/2006</h4>
+  <h5>Died: 08/2006</h5>
+
+
+  <p1>It seemed cruel to allow an old dog to remain locked in a kennel at the end of his life so we adopted Max, an Australian Cattle Dog, who not only was a senior, but also had blood blisters on most of his body. Max was an excellent herder -- herding all of us as he felt appropriate. He was also a very efficient business man -- doing his "business" quickly and routinely. He lived with us for only 5-months before being euthanized, but we made sure that the time he did have with us was well lived.
+</p1>
+
+
+</div>
+</body>
+</html>
