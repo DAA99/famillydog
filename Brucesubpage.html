@@ -1,0 +1,131 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #f07a24
+}
+H1{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 65px;
+  color: #060766;
+}
+H2{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 35px;
+  color: #060766;
+  margin-bottom: 1px;
+}
+.mydisk{
+}
+P1{
+  text-align: left;
+  font-size: 20px;
+  color: #060766;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+}
+.Home{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #060766;
+}
+
+.text{
+  font-size: 16px;
+  font-family: times new roman;
+  color: #060766;
+  font-weight: bolder;
+
+}
+</style>
+</head>
+<body>
+  <div class="mydisk">
+  <H1>ALPERT FAMILY'S DOGS</H1>
+  <div class="Home">
+  <a href="/Users/marshaalpert/Documents/Dogs/Familydogs.html">Click Home</a>
+</div>
+  <Center>
+     <div class="myDiv">
+
+         <div class="slideshow-container">
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/bruce.tif" Width="480px" Height="350px">
+               <div class="text">Bruce</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Sandy Zack Bruce Charlie_edited-1.jpg" Width="450px" Height="350px">
+               <div class="text">Bruce, Zack, Sandy and Charlie</div>
+             </div>
+
+
+             <div style="text-align:center">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+             </div>
+
+             <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+               }
+               slideIndex++;
+               if (slideIndex > slides.length) {slideIndex = 1}
+               for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 3000);
+             }
+
+             </script>
+ </div>
+ </center>
+
+
+<h2>BRUCE</H2>
+  <h3>Born: 02/2006</h3>
+  <h4>Adopted: 12/18/2008</h4>
+  <h5>Died: 09/13/2011</h5>
+
+
+  <p1>A Golden Retriever named Butterball conjures a very chubby dog. However, this Golden Retriever was very lean and had severe health problems that appeared to preclude his adoptability. I took him to our vet for a health evaluation to support his chance of adoption and in the process bonded with him. The vet's evaluation was that he had major health issues but could have a good, if not long, life with us. I decided that we should adopt him ourselves and renamed him Bruce. Bruce did have major health challenges and we even took him for an evaluation to a speciallty veterinarian hospital in northern California. Among other things, Bruce had Pica, which caused him to chew inappropriate things such as our rugs. Despite his challenges, he was a very gentle, sweet fellow and found a best friend when we adopted Zack a year and a half after adopting Bruce. Sadly, the vets were correct in predicting that Bruce would have a short life. Bruce had to be euthanized when he was 5 years old after living with us for 3 years. Ira keeps Bruce's ashes in a cabinet near his dresser.
+</p1>
+
+
+</div>
+</body>
+</html>
