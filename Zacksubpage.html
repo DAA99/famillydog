@@ -1,0 +1,139 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #db9721;
+}
+H1{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 65px;
+  color:#060766;
+}
+H2{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 35px;
+  color:#060766;
+  margin-bottom: 1px;
+}
+.mydisk{
+}
+P1{
+  text-align: left;
+  font-size: 20px;
+  color:#060766;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  color:#060766;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+  color:#060766;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+  color:#060766;
+  margin-top: 0px;
+}
+.Home{
+  text-align: center;
+  margin-bottom: 30px;
+  color:#060766;
+}
+.text{
+  font-size: 16px;
+  font-family: times new roman;
+  font-weight: bolder;
+  color: #060766;
+}
+
+</style>
+</head>
+<body>
+  <div class="mydisk">
+  <H1>ALPERT FAMILY'S DOGS</H1>
+  <div class="Home">
+  <a href="/Users/marshaalpert/Documents/Dogs/Familydogs.html">Click Home</a>
+</div>
+  <Center>
+     <div class="myDiv">
+
+         <div class="slideshow-container">
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/zack.tif" Width="400px" Height="350px">
+               <div class="text">Zack</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Zack and Pete.jpg" Width="470px" Height="350px">
+               <div class="text">Zack and Bestfriend Pete</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/sandy & zack.tif" Width="420px" Height="350px">
+               <div class="text">Zack and Sandy</div>
+             </div>
+
+
+             </div>
+
+
+             <div style="text-align:center">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+             </div>
+
+             <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+               }
+               slideIndex++;
+               if (slideIndex > slides.length) {slideIndex = 1}
+               for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 2500);
+             }
+
+             </script>
+ </div>
+ </center>
+
+
+<h2>ZACK</H2>
+  <h3>Born: unknown (circa 2006)</h3>
+  <h4>Adopted: 6/18/2010</h4>
+  <h5>Died: 10/16/2020</h5>
+
+
+  <p1>Although we had established an informal criteria to adopt dogs that where old or sick, thereby difficult to adopt, while visiting Woods Humane Society, Ira saw a 4 year-old ghost-grey Shih Tzu. He had a slight heart murmur, so technically he fit our criteria for adopting sick dogs, but that health condition would not have made him difficult to adopt. Nevertheless, Ira had to have him! He had been found abandoned on the streets of Santa Maria and we think his original family was Spanish-speaking ad he understood Spanish and reacted favorably to Mexican music. We brought him home and named him Zack. He became best friends with Bruce. They played tug of war constantly, with Bruce letting Zack win just enough to keep him interested in the game. When Bruce died, Zack continued to coexist with Charlie II and Sandy. Eventually Zack found another best friend when we adopted Pete after Sandy died and before Charlie II died. As Zack got older, his heart murmur got increasing more problematic until, finally he had difficulty breathing and ambulating. He was euthanized at age 14 after a life well lived. Ira keeps Zack's ashes in a cabinet near his dresser.
+</p1>
+
+
+</div>
+</body>
+</html>
