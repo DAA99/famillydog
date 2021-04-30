@@ -1,0 +1,140 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #f07a24;
+}
+H1{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 65px;
+  color: #060766;
+}
+H2{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 30px;
+  margin-bottom: 1px;
+  color: #060766;
+
+}
+.mydisk{
+
+}
+P1{
+  text-align: left;
+  font-size: 20px;
+  color: #060766;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+  color: #060766;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #060766;
+
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  color: #060766;
+}
+.Home{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #060766;
+}
+.text{
+    font-size: 16px;
+    font-family: times new roman;
+    font-weight: bolder;
+    color: #060766;
+}
+
+
+</style>
+</head>
+<body>
+  <div class="mydisk">
+  <H1>ALPERT FAMILY'S DOGS</H1>
+  <div class="Home">
+  <a href="/Users/marshaalpert/Documents/Dogs/Familydogs.html">Click Home</a>
+</div>
+  <Center>
+     <div class="myDiv">
+
+         <div class="slideshow-container">
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Pete.jpg" Width="260px" Height="350px">
+               <div class="text">Pete on the Couch</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Petie.jpg" Width="260px" Height=350px">
+               <div class="text">Pete Close Up</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Zack and Pete.jpg" Width="440px" Height="350px">
+               <div class="text">Pete with Bestfriend Zack</div>
+             </div>
+
+
+
+             <div style="text-align:center">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+             </div>
+
+             <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+               }
+               slideIndex++;
+               if (slideIndex > slides.length) {slideIndex = 1}
+               for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 3000);
+             }
+
+             </script>
+ </div>
+ </center>
+
+
+<h2>PETE</H2>
+  <h3>Born: 12/2006</h3>
+  <h4>Adopted: 02/07/2014</h4>
+  <h5>Died: 12/13/2019</h5>
+
+
+  <p1>Being 8-years old and not housebroken, the mostly black Chihuahua we adopted and whose name we changed from Prince to Pete, was charming, playful and loving. We put diapers on him and tried to teach him good bathroom manners i.e. housebreaking him. Although Pete knew how he should behave, he didn't always feel like using the outdoors as evidenced by the need to constant cleaning of my kitchen rug. Pete was an excellent timekeeper. He knew exactly when it was time for me to feed him and to give him his treats and he would serve as my personal alarm clock to remind me of the schedule. Pete was very submissive and eager to please but he was also very sneaky. He would wait until I left the kitchen and then find a way jump onto the kitchen table so that he could eat or drink whatever food or beverage was still on the table. At night, he would wait for me to get into bed before leaving his spot on the couch to jump up to join me in bed. He and Zack were best friends and when Ginger came into their lives and was mean to Zack, sweet Pete tried to defend him from Ginger's assaults. When he was about 13 years old, he stopped eating. He was euthanized to preclude his continued suffering. Ira keeps Pete's ashes in a cabinet near his dresser.
+</p1>
+
+
+</div>
+</body>
+</html>
