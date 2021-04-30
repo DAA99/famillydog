@@ -1,0 +1,142 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #3f93a6
+}
+H1{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 65px;
+  color: #060766;
+}
+H2{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 35px;
+  color: #060766;
+  margin-bottom: 1px;
+}
+.mydisk{
+}
+P1{
+  text-align: left;
+  font-size: 20px;
+  color: #060766;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+}
+.Home{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #060766;
+}
+.text{
+  font-size: 16px;
+  font-family: times new roman;
+  font-weight: bolder;
+  color: #060766;
+
+}
+</style>
+</head>
+<body>
+  <div class="mydisk">
+  <H1>ALPERT FAMILY'S DOGS</H1>
+  <div class="Home">
+  <a href="/Users/marshaalpert/Documents/Dogs/Familydogs.html">Click Home</a>
+</div>
+  <Center>
+     <div class="myDiv">
+
+         <div class="slideshow-container">
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Millie cropped and shopped.jpg" Width="330px" Height="350px">
+               <div class="text">Millie</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Millie & Charlie.jpg" Width="270 s0px" Height="350px">
+               <div class="text">Millie and Charlie</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Millie in the Hallway cropped.jpg" Width="190px" Height="350px">
+               <div class="text">Millie in the Hallway</div>
+             </div>
+
+
+             </div>
+
+
+             <div style="text-align:center">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+             </div>
+
+             <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+               }
+               slideIndex++;
+               if (slideIndex > slides.length) {slideIndex = 1}
+               for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 2500);
+             }
+
+             </script>
+ </div>
+ </center>
+
+
+<h2>MILLIE</H2>
+  <h3>Born: unknown (circa 1993)</h3>
+  <h4>Adopted: 05/11/2007</h4>
+  <h5>Died: 06/07/2008</h5>
+
+
+  <p1>
+    A year after adopting Max, and after Max died, we adopted Millie, a longhaired Dachshund who was about 14 years old. She touched my heart, as she was incredibly sweet and gentle. Unfortunately, despite Ira's objection, I listened to the vet's advice to tube-feed Millie to give her liver time to regenerate. I finally realized that the tube feeding was torture for her and that I was not prolonging her life but instead was prolonging her death. She was euthanized to put an end to her suffering and Ira keeps Millie's ashes in a cabinet near his dresser.
+</p1>
+
+
+
+
+</div>
+</body>
+</html>
