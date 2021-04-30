@@ -1,0 +1,136 @@
+<html>
+<head>
+<style>
+body{
+  background-color: #3f93a6;
+}
+H1{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 65px;
+  color: #060766;
+}
+H2{
+  text-align: center;
+  font-family: chalkboard;
+  font-size: 35px;
+  color: #060766;
+  margin-bottom: 1px;
+}
+.mydisk{
+}
+P1{
+  text-align: left;
+  font-size: 20px;
+  color: #060766;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+h4{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+  color: #060766;
+  margin-top: 0px;
+}
+.Home{
+  text-align:center;
+  margin-bottom: 20px;
+  color:#060766;
+}
+.text{
+  font-size:16px;
+  font-family: times new roman;
+  font-weight: bolder;
+  color:#060766;
+}
+</style>
+</head>
+<body>
+  <div class="mydisk">
+  <H1>ALPERT FAMILY'S DOGS</H1>
+
+  <div class="Home">
+
+  <a href="/Users/marshaalpert/Documents/Dogs/Familydogs.html">Click Home</a>
+</div>
+  <Center>
+     <div class="myDiv">
+
+         <div class="slideshow-container">
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/sandy.tif" Width="360px" Height="350px">
+               <div class="text">Sandy</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/Sandy Zack Bruce Charlie_edited-1.jpg" Width="410px" Height="350px">
+               <div class="text">Sandy, Bruce, Charlie, and Zack</div>
+             </div>
+
+             <div class="mySlides fade">
+
+               <img src="/Users/marshaalpert/Documents/Dogs/sandy & zack_edited-1.tif" Width="480px" Height="350px">
+               <div class="text">Sandy and Zack</div>
+             </div>
+
+
+             <div style="text-align:center">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+             </div>
+
+             <script>
+             var slideIndex = 0;
+             showSlides();
+
+             function showSlides() {
+               var i;
+               var slides = document.getElementsByClassName("mySlides");
+               var dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+               }
+               slideIndex++;
+               if (slideIndex > slides.length) {slideIndex = 1}
+               for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 2500);
+             }
+
+             </script>
+ </div>
+ </center>
+
+
+<h2>SANDY</H2>
+  <h3>Born: unknown (circa 1996)</h3>
+  <h4>Adopted: 03/24/2008</h4>
+  <h5>Died: 09/27/2012</h5>
+
+
+  <p1>The revolving door of senior dogs continued when we adopted 12-year old Sandy who was a beautiful, gentle and calm redhead. Although the adoption papers describe Sandy as a Dachshund mix, we think she was part Corgi as she had a very thick and luxurious coat and a Corgi-like body with short legs. She was euthanized at age 16 after a very long life. Ira keeps Sandy's ashes in a cabinet near his dresser.
+</p1>
+
+
+</div>
+</body>
+</html>
